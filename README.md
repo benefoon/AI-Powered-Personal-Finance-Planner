@@ -59,7 +59,6 @@ AI-Finance-Planner/
 │   ├── workflows/            # CI/CD workflows
 │       ├── main.yml
 ├── README.md                # Project documentation
-├── LICENSE                  # License file
 └── setup.py                 # Project setup script
 ```
 
