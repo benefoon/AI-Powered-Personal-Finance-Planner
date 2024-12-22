@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Finance Planner Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>💰 AI Finance Planner Dashboard</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Total Spending: ${{ total_spent }}</h2>
+            <h3>Spending by Category:</h3>
+            <ul>
+                {% for category, amount in categories.items() %}
+                    <li>{{ category }}: ${{ amount }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
