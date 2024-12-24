@@ -1,0 +1,6 @@
+transaction_id,sender,receiver,amount_normalized,category,date
+1,John,Doe,0.6,Shopping,2024-01-01
+2,Alice,Bob,0.225,Rent,2024-01-02
+3,John,Supermarket,0.15,Groceries,2024-01-03
+4,Bob,Alice,0.1,Utilities,2024-01-04
+5,Alice,John,0.4,Insurance,2024-01-05
