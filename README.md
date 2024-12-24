@@ -115,7 +115,7 @@ Launch the `dashboard.py` to visualize financial insights interactively.
 ## **Screenshots**  
 | Dashboard View                  | Model Training Workflow               |
 |---------------------------------|---------------------------------------|
-| ![Dashboard Overview](screenshots/dashboard_mock.png) | ![Data Flow Architecture](screenshots/architecture_mock.png) |
+| ![Dashboard Overview](screenshots/dashboard_mock.png ) | ![Data Flow Architecture](screenshots/architecture_mock.png ) |
 
 
 ---
