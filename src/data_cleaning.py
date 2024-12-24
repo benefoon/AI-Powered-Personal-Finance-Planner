@@ -1,17 +1,25 @@
 import pandas as pd
 
-def load_raw_data(file_path):
-    """Loads raw transaction data."""
-    return pd.read_csv(file_path)
-
-def clean_transaction_data(data):
-    """Cleans and preprocesses transaction data."""
+def clean_data(file_path):
+    """Clean raw transaction data."""
+    data = pd.read_csv(file_path)
     data.dropna(inplace=True)
-    data['amount'] = data['amount'].apply(lambda x: abs(x))
-    data['date'] = pd.to_datetime(data['date'])
+    data["amount"] = data["amount"].apply(lambda x: abs(x))  # Ensure positive amounts
+    return data
+
+def normalize_amounts(data):
+    """Normalize transaction amounts."""
+    max_amount = data["amount"].max()
+    data["amount_normalized"] = data["amount"] / max_amount
     return data
 
 if __name__ == "__main__":
-    raw_data = load_raw_data("data/raw/transactions.csv")
-    cleaned_data = clean_transaction_data(raw_data)
-    cleaned_data.to_csv("data/processed/cleaned_transactions.csv", index=False)
+    # Load raw data
+    raw_data = clean_data("data/raw/transactions.csv")
+    
+    # Normalize amounts
+    processed_data = normalize_amounts(raw_data)
+    
+    # Save processed data
+    processed_data.to_csv("data/processed/processed_transactions.csv", index=False)
+    print("Data processing complete. Processed data saved.")
