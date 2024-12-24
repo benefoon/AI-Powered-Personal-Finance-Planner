@@ -1,0 +1,6 @@
+transaction_id,sender,receiver,amount,category,date
+1,John,Doe,1200,Shopping,2024-01-01
+2,Alice,Bob,450,Rent,2024-01-02
+3,John,Supermarket,300,Groceries,2024-01-03
+4,Bob,Alice,200,Utilities,2024-01-04
+5,Alice,John,800,Insurance,2024-01-05
