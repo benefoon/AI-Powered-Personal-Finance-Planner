@@ -159,7 +159,7 @@ Launch the `dashboard.py` to visualize financial insights interactively.
 
 | Dashboard View                  | Model Training Workflow               |
 |---------------------------------|---------------------------------------|
-| ![Dashboard Overview](https://github.com/benefoon/AI-Powered-Personal-Finance-Planner/blob/main/screenshots/dashboard_mock.png) | ![Data Flow Architecture](https://github.com/benefoon/AI-Powered-Personal-Finance-Planner/blob/main/screenshots/architecture_mock.png) |
+| ![Dashboard Overview](https://github.com/benefoon/AI-Powered-Personal-Finance-Planner/blob/main/screenshots/dashboard_mock.png) | ![Data Flow Architecture]([https://github.com/benefoon/AI-Powered-Personal-Finance-Planner/blob/main/screenshots/architecture_mock.png](https://github.com/benefoon/AI-Powered-Personal-Finance-Planner/blob/main/architecture_mock.png)) |
 
 ---
 
