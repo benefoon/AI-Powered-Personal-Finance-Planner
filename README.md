@@ -1,4 +1,4 @@
-### AI-Powered-Personal-Finance-Planner
+## AI-Powered-Personal-Finance-Planner
 
 ---
 
