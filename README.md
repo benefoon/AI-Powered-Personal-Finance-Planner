@@ -3,8 +3,7 @@
 ---
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue.svg)  
-![Build]([![Build](https://img.shields.io/github/actions/workflow/status/benefoon/AI-Powered-Personal-Finance-Planner/ci-cd.yml?branch=main)](https://github.com/benefoon/AI-Powered-Personal-Finance-Planner/actions)
-)
+[![Build](https://img.shields.io/github/actions/workflow/status/benefoon/AI-Powered-Personal-Finance-Planner/ci-cd.yml?branch=main)](https://github.com/benefoon/AI-Powered-Personal-Finance-Planner/actions)
 
 ---
 
